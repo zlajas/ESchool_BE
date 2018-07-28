@@ -1,4 +1,4 @@
-# ESchool backend
+# ESchool back-end
 ###### Author:
 Zlatko Spasojević 😀
 
