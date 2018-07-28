@@ -12,9 +12,6 @@ namespace School.Models
 {
     public class Parent : ApplicationUser
     {
-        [Required]
-        [EmailAddress]
-        public string EmailAddress { get; set; }
         [JsonIgnore]
         public virtual ICollection<Student> Children { get; set; }       
         public Parent()

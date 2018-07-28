@@ -12,8 +12,6 @@ namespace School.Models
 {
     public class Teacher : ApplicationUser
     {
-        [EmailAddress]
-        public string EmailAddress { get; set; }
         [JsonIgnore]
         public virtual ICollection<TeacherToSubject> TeacherTeachesSubject { get; set; }
 

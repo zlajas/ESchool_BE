@@ -125,7 +125,7 @@ namespace School.Services
                 parent.FirstName = updatedParent.FirstName;
                 parent.LastName = updatedParent.LastName;
                 parent.UserName = updatedParent.UserName;
-                parent.EmailAddress = updatedParent.EmailAddress;
+                parent.Email = updatedParent.Email;
 
                 db.ParentRepository.Update(parent);
                 db.Save();

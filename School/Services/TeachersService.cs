@@ -108,7 +108,7 @@ namespace School.Services
                 teacher.FirstName = updatedTeacher.FirstName;
                 teacher.LastName = updatedTeacher.LastName;
                 teacher.UserName = updatedTeacher.UserName;
-                teacher.EmailAddress = updatedTeacher.EmailAddress;
+                teacher.Email = updatedTeacher.Email;
 
                 db.TeacherRepository.Update(teacher);
                 db.Save();
@@ -189,7 +189,7 @@ namespace School.Services
             {
                 foreach (var parent in student.Parents)
                 {
-                    emailTo = parent.EmailAddress;
+                    emailTo = parent.Email;
 
                     if (emailTo == null)
                     {

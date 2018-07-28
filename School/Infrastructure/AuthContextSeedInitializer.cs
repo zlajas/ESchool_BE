@@ -24,16 +24,18 @@ namespace School.Models
     public enum SubjectsSeventhToEighthGrade { Srpski_jezik, Matematika, Likovna_kultura, Muzicka_kultura, Fizicko_vaspitanje, Engleski_jezik, Istorija, Geografija, Fizika, Biologija, Hemija, Tehnicko_i_informaticko_obrazovanje }
   
 
-    public class AuthContextSeedInitializer : DropCreateDatabaseIfModelChanges<AuthContext>
+    public class AuthContextSeedInitializer : DropCreateDatabaseIfModelChanges<AuthContext> //only for testing purposes.
     {
 
         public Random rnd = new Random();
-        private int studentCount = 81;
-        private int parentCount = 67;
+        private int studentCount = 30;
+        private int parentCount = 22;
         private int teacherCount = 21;
         private int subjectCount = 73;
+        private int adminCount = 2;
 
         private Random gen = new Random();
+
         DateTime RandomDay()
         {
             DateTime start = new DateTime(2003, 1, 1);
@@ -44,11 +46,30 @@ namespace School.Models
 
         protected override void Seed(AuthContext context)
         {
-            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));  //adding roles
             roleManager.Create(new IdentityRole("students"));
             roleManager.Create(new IdentityRole("parents"));
             roleManager.Create(new IdentityRole("teachers"));
             roleManager.Create(new IdentityRole("admins"));
+
+            //Add admin
+            Admin[] admins = new Admin[adminCount];
+            for (int i = 0; i < adminCount; i++)
+            {
+
+            var userManagerAdmin = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
+            Admin admin = new Admin();
+
+            admin.FirstName = System.Enum.GetName(typeof(FirstNames), rnd.Next(System.Enum.GetValues(typeof(FirstNames)).Length));
+            admin.LastName = System.Enum.GetName(typeof(LastNames), rnd.Next(System.Enum.GetValues(typeof(LastNames)).Length));
+            admin.UserName = string.Format("{0}{1}", admin.FirstName.ToLower(), rnd.Next(0, 100));
+            string adminPassword = "admin123"; //password
+            userManagerAdmin.Create(admin, adminPassword);
+            userManagerAdmin.AddToRole(admin.Id, "admins");
+
+            }
+
+            context.SaveChanges();
 
             // Add students
             Student[] students = new Student[studentCount];
@@ -59,54 +80,54 @@ namespace School.Models
 
                 student.FirstName = System.Enum.GetName(typeof(FirstNames), rnd.Next(System.Enum.GetValues(typeof(FirstNames)).Length));
                 student.LastName = System.Enum.GetName(typeof(LastNames), rnd.Next(System.Enum.GetValues(typeof(LastNames)).Length));
-                student.UserName = string.Format("{0}{1}{2}", student.FirstName.ToLower(), student.LastName, rnd.Next(0, 100));
-                string password = string.Format("{0}{1}", student.FirstName.ToLower(), rnd.Next(0, 100)); //password
+                student.UserName = string.Format("{0}{1}", student.FirstName.ToLower(), rnd.Next(0, 1000));
+                string password = "student123"; //password
                 student.DateOfBirth = RandomDay();
                 students[i] = student;
-                userManager.Create(student, password); //ovde se prosledi password
-                userManager.AddToRole(student.Id, "students"); //dodeljivanje role
+                userManager.Create(student, password); 
+                userManager.AddToRole(student.Id, "students"); 
             }
            
             context.SaveChanges();
             
-            // Add students
+            // Add parents
             Parent[] parents = new Parent[parentCount];
-            for (int g = 1; g <parentCount; g++)
+            for (int i = 0; i < parentCount; i++)
             {
                     var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
                     Parent parent = new Parent();
 
                     parent.FirstName = System.Enum.GetName(typeof(FirstNames), rnd.Next(System.Enum.GetValues(typeof(FirstNames)).Length));
                     parent.LastName = System.Enum.GetName(typeof(LastNames), rnd.Next(System.Enum.GetValues(typeof(LastNames)).Length));
-                    parent.UserName = string.Format("{0}{1}{2}", parent.FirstName.ToLower(), parent.LastName.ToLower(), rnd.Next(0, 100));
-                    string password = string.Format("{0}{1}", parent.FirstName.ToLower(), rnd.Next(0, 100));
-                    parent.EmailAddress = string.Format("{0}@example.com", parent.UserName);
-                    parents[g] = parent;
+                    parent.UserName = string.Format("{0}{1}", parent.FirstName.ToLower(), rnd.Next(0, 1000));
+                    string password = "parent123";
+                    parent.Email = string.Format("{0}@example.com", parent.UserName);
+                    parents[i] = parent;
                     userManager.Create(parent, password);
                     userManager.AddToRole(parent.Id, "parents");
             }
 
             context.SaveChanges();
 
-            // Add students
+            // Add teachers
             Teacher[] teachers = new Teacher[teacherCount];
-            for (int z = 1; z < teacherCount; z++)
+            for (int i = 0; i < teacherCount; i++)
             {
                 var userManager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(context));
                 Teacher teacher = new Teacher();
 
                 teacher.FirstName = System.Enum.GetName(typeof(FirstNames), rnd.Next(System.Enum.GetValues(typeof(FirstNames)).Length));
                 teacher.LastName = System.Enum.GetName(typeof(LastNames), rnd.Next(System.Enum.GetValues(typeof(LastNames)).Length));
-                teacher.UserName = string.Format("{0}{1}{2}", teacher.FirstName.ToLower(), teacher.LastName.ToLower(), rnd.Next(0, 100));
-                string password = string.Format("{0}{1}", teacher.FirstName.ToLower(), 777);
-                teacher.EmailAddress = string.Format("{0}@example.com", teacher.UserName);
-                teachers[z] = teacher;
+                teacher.UserName = string.Format("{0}{1}", teacher.FirstName.ToLower(), rnd.Next(0, 1000));
+                string password = "teacher123";
+                teacher.Email = string.Format("{0}@example.com", teacher.UserName);
+                teachers[i] = teacher;
                 userManager.Create(teacher, password);
                 userManager.AddToRole(teacher.Id, "teachers");
             }
             context.SaveChanges();
 
-            // Add students
+            // Add subjects
             Subject[] subjects = new Subject[subjectCount];
             int subjectName = (int)SubjectsFirstToFourthGrade.Srpski_jezik;
             for (int i = 0; i < 7; i++)
