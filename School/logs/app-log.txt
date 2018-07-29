@@ -1,15 +1,2 @@
-2018-07-28 01:01:46.7639|INFO|School.Controllers.AccountsController|Registering student
-2018-07-28 01:29:09.7309|ERROR|School.Controllers.AccountsController|Registering student - username already exists!
-2018-07-28 01:33:49.5218|ERROR|School.Controllers.AccountsController|Registering student - username already exists!
-2018-07-28 19:32:04.5944|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:35:04.6536|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:37:28.7618|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:40:45.2374|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:43:54.1565|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:46:56.0639|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:48:26.2384|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:52:16.0842|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:53:56.8476|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:57:22.4733|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-28 19:58:32.0534|INFO|School.Controllers.StudentsController|Adding subjects to students by birth date
-2018-07-28 19:59:29.8654|INFO|School.Controllers.StudentsController|Requesting students
+2018-07-29 03:29:23.6766|INFO|School.Controllers.AdminsController|Requesting admins
+2018-07-29 03:30:15.5004|INFO|School.Controllers.AdminsController|Requesting admin by id

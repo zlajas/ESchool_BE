@@ -282,9 +282,5 @@ namespace School.Controllers
 
             return Ok(student);
         }
-
-
-
-
     }
 }

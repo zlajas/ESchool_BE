@@ -1,219 +1,37 @@
-2018-07-23 12:33:37.6970|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 13:30:06.8979|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 13:32:34.1133|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 13:34:15.9333|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 13:35:37.3842|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 13:38:23.7043|INFO|School.Controllers.AccountsController|Registering student
-2018-07-23 13:39:01.2534|INFO|School.Controllers.AccountsController|Registering teacher
-2018-07-23 13:39:56.2140|INFO|School.Controllers.AccountsController|Registering parentt
-2018-07-23 13:40:25.5101|INFO|School.Controllers.AccountsController|Registering admin
-2018-07-23 13:41:08.9369|INFO|School.Controllers.AccountsController|Registering admin
-2018-07-23 13:42:21.1195|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 13:42:33.4859|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 13:42:34.7091|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 13:42:35.9172|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 13:46:35.6492|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 13:47:43.6466|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 13:49:16.7353|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 13:52:27.4992|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 13:52:31.7709|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 13:52:31.7709|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 13:52:31.7709|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 13:52:31.8828|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 13:52:40.2641|INFO|School.Controllers.StudentsController|Adding subject to student
-2018-07-23 13:52:44.9627|INFO|School.Controllers.StudentsController|Removing subject from student
-2018-07-23 13:54:05.2164|INFO|School.Controllers.StudentsController|Adding subjects to students by birth date
-2018-07-23 14:31:08.8022|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:31:22.2649|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:31:22.2649|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:31:22.2649|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:31:22.5340|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:31:26.8591|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:31:27.8346|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:31:27.8346|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:31:27.8346|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:31:27.8476|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:31:29.0459|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:31:33.1437|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:31:33.1437|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:31:33.1437|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:31:33.1617|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:31:36.4998|INFO|School.Controllers.StudentsController|Adding subject to student
-2018-07-23 14:31:43.0944|INFO|School.Controllers.SubjectsController|Requesting teachers for a subject
-2018-07-23 14:31:45.9476|INFO|School.Controllers.SubjectsController|Requesting teachers for a subject
-2018-07-23 14:31:49.4380|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 14:31:50.6645|INFO|School.Controllers.TeachersController|Requesting teachers subjects
-2018-07-23 14:31:50.6645|INFO|School.Controllers.TeachersController|Requesting remaining subjects
-2018-07-23 14:31:50.6805|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 14:31:50.6805|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 14:32:01.9060|INFO|School.Controllers.TeachersController|Adding subject to teacher
-2018-07-23 14:32:03.8211|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 14:32:06.5651|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:32:09.7381|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:32:09.7381|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:32:09.7481|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:32:09.7701|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:32:10.6594|INFO|School.Controllers.SubjectsController|Requesting teachers for a subject
-2018-07-23 14:32:11.8971|INFO|School.Controllers.StudentsController|Linking teacher with student-subject
-2018-07-23 14:32:14.9734|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:32:18.9578|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:32:18.9578|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:32:18.9578|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:32:18.9888|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:32:20.4795|INFO|School.Controllers.MarksController|Requesting marks per subject
-2018-07-23 14:32:24.2398|INFO|School.Controllers.MarksController|Adding mark as admin
-2018-07-23 14:34:45.3504|INFO|School.Controllers.MarksController|Adding mark as admin
-2018-07-23 14:34:57.1797|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:34:57.1797|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:34:57.1797|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:34:57.3473|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:34:59.0771|INFO|School.Controllers.MarksController|Requesting marks per subject
-2018-07-23 14:35:03.2867|INFO|School.Controllers.MarksController|Adding mark as admin
-2018-07-23 14:35:06.8892|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:35:06.8892|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:35:06.8892|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:35:06.9282|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:35:08.2909|INFO|School.Controllers.MarksController|Requesting marks per subject
-2018-07-23 14:35:10.6137|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:35:10.6137|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:35:10.6137|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:35:10.6477|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:35:17.5810|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:35:18.9586|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 14:35:18.9666|INFO|School.Controllers.ParentsController|Requesting students linked to a parent
-2018-07-23 14:35:18.9666|INFO|School.Controllers.ParentsController|Requesting remaining students
-2018-07-23 14:35:19.0535|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 14:35:22.2002|INFO|School.Controllers.ParentsController|Adding student to parent
-2018-07-23 14:35:26.8243|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:35:28.1776|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 14:35:28.1776|INFO|School.Controllers.ParentsController|Requesting students linked to a parent
-2018-07-23 14:35:28.1895|INFO|School.Controllers.ParentsController|Requesting remaining students
-2018-07-23 14:35:28.2185|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 14:35:31.4058|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:35:36.4682|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:35:39.4896|INFO|School.Controllers.SubjectsController|Requesting subject by id
-2018-07-23 14:35:41.0923|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:35:47.2321|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:35:48.1337|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:35:55.5249|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:35:56.8033|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 14:35:59.8214|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 14:36:00.6937|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:36:33.7159|INFO|School.Controllers.AccountsController|Registering student
-2018-07-23 14:36:36.1844|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:36:43.9492|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:36:43.9612|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 14:36:43.9612|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 14:36:43.9792|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 14:36:57.4887|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:36:59.9454|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 14:37:37.0154|INFO|School.Controllers.AccountsController|Registering teacher
-2018-07-23 14:37:39.1402|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 14:37:40.2090|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 14:37:40.2090|INFO|School.Controllers.TeachersController|Requesting teachers subjects
-2018-07-23 14:37:40.2090|INFO|School.Controllers.TeachersController|Requesting remaining subjects
-2018-07-23 14:37:40.3069|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 14:37:41.9712|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 14:37:43.2348|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:38:15.6716|INFO|School.Controllers.AccountsController|Registering parentt
-2018-07-23 14:38:17.7727|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:38:22.7993|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 14:38:22.8202|INFO|School.Controllers.ParentsController|Requesting students linked to a parent
-2018-07-23 14:38:22.8202|INFO|School.Controllers.ParentsController|Requesting remaining students
-2018-07-23 14:38:22.8412|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 14:38:25.2626|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 14:38:26.4653|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:41:28.4319|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:41:31.5306|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:41:49.2673|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:43:07.1543|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:43:08.3836|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:43:56.2187|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:44:59.2767|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 14:45:00.5999|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:45:23.1855|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:47:22.6629|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:51:14.1831|INFO|School.Controllers.SubjectsController|Requesting subject by id
-2018-07-23 14:51:16.0671|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:51:20.7851|INFO|School.Controllers.SubjectsController|Requesting subject by id
-2018-07-23 14:51:22.4830|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:52:47.1969|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:55:39.7937|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:57:12.4459|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:57:14.0745|INFO|School.Controllers.SubjectsController|Requesting subject by id
-2018-07-23 14:57:21.2436|INFO|School.Controllers.SubjectsController|update subject
-2018-07-23 14:57:21.3275|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:57:22.5911|INFO|School.Controllers.SubjectsController|Requesting subject by id
-2018-07-23 14:57:24.1964|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 14:57:37.3023|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 15:03:07.3876|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 15:03:11.3033|INFO|School.Controllers.SubjectsController|Requesting subject by id
-2018-07-23 15:03:12.9492|INFO|School.Controllers.SubjectsController|Requesting subjects
-2018-07-23 15:03:24.3029|INFO|School.Controllers.StudentsController|Requesting all marks - student view
-2018-07-23 15:04:52.5191|INFO|School.Controllers.TeachersController|Requesting teachers view
-2018-07-23 15:05:12.2970|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 15:05:14.1102|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 15:05:14.1102|INFO|School.Controllers.TeachersController|Requesting teachers subjects
-2018-07-23 15:05:14.1332|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 15:05:14.1332|INFO|School.Controllers.TeachersController|Requesting remaining subjects
-2018-07-23 15:05:19.2592|INFO|School.Controllers.TeachersController|Adding subject to teacher
-2018-07-23 15:05:22.4064|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 15:05:23.9548|INFO|School.Controllers.ParentsController|Requesting parents
-2018-07-23 15:05:27.2423|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 15:05:27.2423|INFO|School.Controllers.ParentsController|Requesting students linked to a parent
-2018-07-23 15:05:27.2423|INFO|School.Controllers.ParentsController|Requesting remaining students
-2018-07-23 15:05:27.3522|INFO|School.Controllers.ParentsController|Requesting parent by id
-2018-07-23 15:05:41.1770|INFO|School.Controllers.ParentsController|Adding student to parent
-2018-07-23 15:05:55.1323|INFO|School.Controllers.TeachersController|Requesting teachers view
-2018-07-23 15:06:06.8896|INFO|School.Controllers.ParentsController|Requesting marks view for parent
-2018-07-23 15:07:35.8870|INFO|School.Controllers.ParentsController|Requesting marks view for parent
-2018-07-23 15:07:39.4057|INFO|School.Controllers.MarksController|Requesting mark by id
-2018-07-23 15:12:23.6040|INFO|School.Controllers.ParentsController|Requesting marks view for parent
-2018-07-23 15:12:53.7376|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 15:12:55.9342|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 15:12:55.9372|INFO|School.Controllers.TeachersController|Requesting teachers subjects
-2018-07-23 15:12:55.9372|INFO|School.Controllers.TeachersController|Requesting remaining subjects
-2018-07-23 15:12:56.0272|INFO|School.Controllers.TeachersController|Requesting teacher by id
-2018-07-23 15:12:59.1660|INFO|School.Controllers.TeachersController|Requesting teachers
-2018-07-23 15:13:00.0526|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 15:13:01.0701|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 15:13:01.0701|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 15:13:01.0701|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:01.1520|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:03.1668|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 15:13:04.0652|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 15:13:04.0652|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 15:13:04.0652|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:04.0802|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:05.0696|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 15:13:06.0860|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:06.0860|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 15:13:06.0860|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 15:13:06.1060|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:07.5493|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 15:13:08.7990|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:08.7990|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 15:13:08.8189|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 15:13:08.8459|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:10.5099|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 15:13:11.6342|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:11.6388|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 15:13:11.6388|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 15:13:11.6388|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:12.6803|INFO|School.Controllers.StudentsController|Requesting students
-2018-07-23 15:13:14.0651|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:14.0651|INFO|School.Controllers.StudentsController|Requesting subjects for a student
-2018-07-23 15:13:14.0651|INFO|School.Controllers.StudentsController|Requesting remaining subjects
-2018-07-23 15:13:14.0791|INFO|School.Controllers.StudentsController|Requesting student by id
-2018-07-23 15:13:16.7066|INFO|School.Controllers.SubjectsController|Requesting teachers for a subject
-2018-07-23 15:13:18.9568|INFO|School.Controllers.StudentsController|Linking teacher with student-subject
-2018-07-23 15:13:25.8357|INFO|School.Controllers.MarksController|Requesting marks per subject
-2018-07-23 15:13:29.5929|INFO|School.Controllers.MarksController|Adding mark as admin
-2018-07-23 15:13:41.5036|INFO|School.Controllers.TeachersController|Requesting teachers view
-2018-07-23 15:13:48.0544|INFO|School.Controllers.TeachersController|Adding mark to student
-2018-07-23 15:13:55.2565|INFO|School.Controllers.MarksController|Requesting mark by id
-2018-07-23 15:14:09.3267|INFO|School.Controllers.MarksController|Updating marks
-2018-07-23 15:14:09.3777|INFO|School.Controllers.TeachersController|Requesting teachers view
-2018-07-23 15:14:11.5123|INFO|School.Controllers.MarksController|Requesting mark by id
-2018-07-23 15:14:12.4741|INFO|School.Controllers.MarksController|Deleting mark
-2018-07-23 15:14:12.5333|INFO|School.Controllers.TeachersController|Requesting teachers view
+2018-07-26 23:23:57.2216|INFO|School.Controllers.StudentsController|Requesting students
+2018-07-26 23:26:37.0266|INFO|School.Controllers.StudentsController|Requesting students
+2018-07-26 23:30:35.6250|INFO|School.Controllers.StudentsController|Requesting students
+2018-07-26 23:36:15.0558|INFO|School.Controllers.StudentsController|Requesting students
+2018-07-26 23:36:22.4644|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:36:22.4644|INFO|School.Controllers.StudentsController|Requesting subjects for a student
+2018-07-26 23:36:22.4644|INFO|School.Controllers.StudentsController|Requesting remaining subjects
+2018-07-26 23:36:22.8043|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:41:59.3600|INFO|School.Controllers.StudentsController|Requesting remaining subjects
+2018-07-26 23:41:59.3600|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:41:59.3600|INFO|School.Controllers.StudentsController|Requesting subjects for a student
+2018-07-26 23:41:59.5652|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:42:24.0943|INFO|School.Controllers.StudentsController|Requesting remaining subjects
+2018-07-26 23:42:24.0943|INFO|School.Controllers.StudentsController|Requesting subjects for a student
+2018-07-26 23:42:24.0943|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:42:24.1153|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:42:27.5482|INFO|School.Controllers.StudentsController|Requesting students
+2018-07-26 23:42:35.7622|INFO|School.Controllers.ParentsController|Requesting parents
+2018-07-26 23:42:37.0020|INFO|School.Controllers.ParentsController|Requesting parent by id
+2018-07-26 23:42:37.0020|INFO|School.Controllers.ParentsController|Requesting students linked to a parent
+2018-07-26 23:42:37.0140|INFO|School.Controllers.ParentsController|Requesting remaining students
+2018-07-26 23:42:37.0773|INFO|School.Controllers.ParentsController|Requesting parent by id
+2018-07-26 23:43:31.5303|INFO|School.Controllers.TeachersController|Requesting teachers
+2018-07-26 23:45:53.2746|INFO|School.Controllers.StudentsController|Requesting students
+2018-07-26 23:45:54.6642|INFO|School.Controllers.StudentsController|Requesting remaining subjects
+2018-07-26 23:45:54.6642|INFO|School.Controllers.StudentsController|Requesting subjects for a student
+2018-07-26 23:45:54.6732|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:45:54.7022|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:46:50.5091|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:46:50.5091|INFO|School.Controllers.StudentsController|Requesting subjects for a student
+2018-07-26 23:46:50.5091|INFO|School.Controllers.StudentsController|Requesting remaining subjects
+2018-07-26 23:46:50.5997|INFO|School.Controllers.StudentsController|Requesting student by id
+2018-07-26 23:47:26.1438|INFO|School.Controllers.TeachersController|Requesting teachers
+2018-07-26 23:47:27.6059|INFO|School.Controllers.TeachersController|Requesting teacher by id
+2018-07-26 23:47:27.6259|INFO|School.Controllers.TeachersController|Requesting teachers subjects
+2018-07-26 23:47:27.6748|INFO|School.Controllers.TeachersController|Requesting remaining subjects
+2018-07-26 23:47:27.7338|INFO|School.Controllers.TeachersController|Requesting teacher by id

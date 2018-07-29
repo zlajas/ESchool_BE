@@ -79,6 +79,7 @@ namespace School
             container.RegisterType<IAuthRepository, AuthRepository>();
 
             container.RegisterType<IAccountsService, AccountsService>();
+            container.RegisterType<IAdminService, AdminService>();
             container.RegisterType<IStudentsService, StudentsService>();
             container.RegisterType<ITeachersService, TeachersService>();
             container.RegisterType<IParentsService, ParentsService>();

@@ -162,6 +162,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountsController.cs" />
+    <Compile Include="Controllers\AdminsController.cs" />
     <Compile Include="Controllers\MarksController.cs" />
     <Compile Include="Controllers\ParentsController.cs" />
     <Compile Include="Controllers\StudentsController.cs" />
@@ -200,6 +201,8 @@
     <Compile Include="Repositories\IGenericRepository.cs" />
     <Compile Include="Repositories\IUnitOfWork.cs" />
     <Compile Include="Repositories\UnitOfWork.cs" />
+    <Compile Include="Services\AdminService.cs" />
+    <Compile Include="Services\IAdminService.cs" />
     <Compile Include="Services\MarksService.cs" />
     <Compile Include="Services\IMarksService.cs" />
     <Compile Include="Services\IParentsService.cs" />
