@@ -4,7 +4,7 @@ Zlatko Spasojević 😀
 
 ###### Description:
 
-e-School 📘 was developed for teachers, parents and students. It allows parents and students to view their marks/grades and makes adding marks easier for teachers, together with allowing them to make simple and fast corrections in case of a mistake.
+e-School 📘 was developed for a course exam. It allows parents and students to view their marks/grades and makes adding marks easier for teachers, together with allowing them to make simple and fast corrections in case of a mistake.
 
 ###### Registration and login:
 Teachers, parents, students and system administrators have access to the application. During the registration they are given a unique username and password.
