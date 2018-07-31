@@ -1,4 +1,4 @@
-# ESchool back-end
+# ESchool back-end    <a href="https://github.com/zlajas/ESchool_FE">(Link to Front-end of the project)</a>
 ###### Author:
 Zlatko Spasojević 😀
 
@@ -16,7 +16,7 @@ After signing in, teacher can have a look into his subjects, together with a lis
 After signing in, student can have a look into his marks per subject. Parents can view their children's marks afret they sign in.
 
 ###### Functionalities:
-* Sign in to the system with different privileges based on a role
+* Sign in to the system with different privileges based on a role using token authentication.
 * Adding marks/grades to students. Editing and deleting marks. (teachers)
 * Notifying a parent by email, after new mark has been added to their student
 * Viewing marks/grades (parents/students)
